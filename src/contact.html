@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ilo | contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <div id="wrapper">
+    <header>
+      <img id="logo" src="ilo.jpg" />
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="shop.html">shop</a>
+        </li>
+        <li>
+          <a href="portfolio.html">portfolio</a>
+        </li>
+        <li>
+          <a href="aboutme.html">about me</a>
+        </li>
+        <li>
+          <a href="contact.html">contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="contact">
+      <h2>Request Custom Artwork</h2>
+      <p>Required fields are marked with an asterisk *.</p>
+      <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+        <label for="myFName">* First Name:</label>
+        <input type="text" required="required" id="myFName" name="myFName" />
+        <label for="myLName">* Last Name:</label>
+        <input type="text" required="required" id="myLName" name="myLName" />
+        <label for="myEmail">* E-mail:</label>
+        <input type="email" name="myEmail" id="myEmail" />
+        <label for="mobile">Phone Number:</label>
+        <input type="tel" name="mobile" id="mobile" maxlength="12" />
+        <label for="myMedia">* Media (Painting, Photo, etc.)</label>
+        <input type="text" required="required" id="myMedia" name="myMedia" />
+        <label for="myDescription">Description</label>
+        <textarea
+          id="myComments"
+          name="myComments"
+          rows="2"
+          cols="30"
+        ></textarea>
+        <input type="submit" value="submit" />
+      </form>
+    </main>
+
+    <footer>
+      Copyright &copy; 2020 ilo by SeijaKingston
+      <br />
+      <a href="ilo@gmail.com">ilo@gmail.com</a>
+    </footer>
+  </div>
+</html>

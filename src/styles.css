@@ -1,0 +1,167 @@
+* {
+  font-family: sans-serif;
+}
+header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  height: 100px;
+}
+
+#leaf {
+  height: 500px;
+  background-image: url(leaf_vase.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  margin-left: 30px;
+  width: 50%;
+}
+#headshot {
+  height: 200px;
+  padding: 20px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #59a3b5;
+  font-size: 120%;
+}
+
+nav {
+  font-weight: bold;
+  font-size: 90%;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 1.2em;
+}
+nav a {
+  text-decoration: none;
+  color: #213e45;
+  letter-spacing: 2px;
+}
+
+#aboutme {
+  display: flex;
+  text-align: left;
+}
+#aboutme h2 {
+  padding-left: 20px;
+}
+#aboutme ul {
+  background-color: #c0d2db;
+}
+#home h2 {
+  font-size: 300%;
+}
+
+#home p {
+  font-size: 150%;
+}
+main {
+  height: 500px;
+}
+
+main ul {
+  list-style-type: none;
+}
+#contact {
+  padding-left: 20px;
+}
+#contact h2 {
+  text-align: center;
+  background-color: #537688;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+form {
+  display: flex;
+  padding: 10px;
+  flex-flow: column nowrap;
+}
+input,
+textarea {
+  margin-bottom: 0.5em;
+}
+
+input[type="submit"] {
+  width: 9em;
+  color: #ffffff;
+  background-color: #537688;
+  border: none;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-style: bold;
+  letter-spacing: 0.25em;
+  font-size: 1.25em;
+  margin-top: ;
+}
+
+footer {
+  text-align: center;
+  background-color: #c0d2db;
+  color: #537688;
+  padding: 10px;
+  margin: 0;
+}
+footer a {
+  color: #537688;
+}
+
+#shop {
+  padding-right: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100px auto;
+}
+
+#shop h2 {
+  grid-row: 1/2;
+  grid-column: 1/4;
+  text-align: center;
+  background-color: #537688;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#shop ul {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  border-right: solid 2px #537688;
+  margin-bottom: 100px;
+  margin-right: 50px;
+}
+#shop a {
+  text-decoration: none;
+  color: #7e94a0;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+}
+
+#card1 {
+  height: 200px;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  padding: 20px;
+}
+
+#card2 {
+  height: 200px;
+  grid-row: 2/3;
+  grid-column: 3/4;
+  padding: 20px;
+}
